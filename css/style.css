@@ -4,22 +4,86 @@
     --primary: #0065FC;
     --primary-light: #DEEBFF;
     --secondary: #F2F2F2;
-  }
-  
+}
+
 html {
     font-family: 'Raleway', sans-serif;
 }
-body {
-    
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* MAIN NAV */
+.main-nav {
+    text-align: center;
+}
+
+.main-nav__logo img {
+    position: relative;
+    left: 45px;
+}
+
+.main-nav__nav-items {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.main-nav__nav-items li:hover {
+    border-bottom: 1px solid var(--primary);
+}
+
+.main-nav__nav-items li {
+    display: block;
+    width: 100%;
+    padding: 25px 18px;
+}
+
+.main-nav__nav-items li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav__nav-items li:hover a {
+    color: var(--primary)
 }
 
 /* TABLET */
 @media (min-width: 768px) {
-    
+
+    /* MAIN NAV */
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-height: 100px;
+    }
+
+    .main-nav__logo img {
+        max-height: 50px;
+    }
+
+    .main-nav__nav-items {
+
+        border-bottom: none;
+    }
+
+    .main-nav__nav-items li {
+        width: 150px;
+    }
+
+    .main-nav__nav-items li:hover {
+        border-top: 1px solid var(--primary);
+        border-bottom: none;
+    }
 }
+
 
 
 /* DESKTOP */
-@media (min-width: 992px) {
-    
-}
+@media (min-width: 992px) {}
