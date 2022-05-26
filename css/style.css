@@ -133,7 +133,7 @@ html {
 
 .filter-container ul li:not(:first-child) {
     padding: 0 12px 0 0;
-    margin: 8px 8px;
+    margin: 8px 8px 8px 0px;
     border: 1px solid lightgrey;
     border-radius: 25px;
 }
@@ -151,6 +151,18 @@ html {
     color: black;
     font-weight: bolder;
 }
+.search-info{
+    display: flex;
+    align-items: baseline;
+}
+.search-info i {
+    padding: 4px 10px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    color: var(--primary);
+    margin-right: 8px;
+}
+
 
 /* TABLET */
 @media (min-width: 768px) {
@@ -184,7 +196,7 @@ html {
     /* SEARCH FORM */
     .search-form input[type="submit"].btn-desktop {
         display: inline-block;
-        left: 230px;
+        left: 225px;
         top: 1px;
         padding: 12px;
         border-radius: 0 12px 12px 0;
