@@ -7,9 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" >
 </head>
 
 <body>
@@ -29,10 +28,32 @@
             </nav>
         </header>
 
-        <section id="search-and-filters">
-            <header>
-                <h2>Trouver votre hébergement pour des vacances de rêve</h2>
-            </header>
+        <section id="search-and-filters" class="p-8">
+            <div class="container">
+                <header>
+                    <h2>Trouver votre hébergement pour des vacances de rêve</h2>
+                    <p>En plein centre ville ou en pleine nature</p>
+                    
+                </header>
+                <form class="search-form">
+                    <span><i class="fa-solid fa-location-dot "></i></span>
+                    <input type="text" name="search" id="search">
+                    <input type="submit" value="Rechercher" class="btn-desktop">
+                    <button class="btn-responsive">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+
+                <div class="filter-container">
+                    <ul>
+                        <li><h3>Filtres</h3></li>
+                        <li><a href="#">Économique</a></li>
+                        <li><a href="#">Familial</a></li>
+                        <li><a href="#">Romantique</a></li>
+                        <li><a href="#">Animaux autorisés</a></li>
+                    </ul>
+                </div>
+            </div>
 
 
 
