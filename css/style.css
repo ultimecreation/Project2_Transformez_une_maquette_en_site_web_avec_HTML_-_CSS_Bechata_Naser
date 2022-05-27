@@ -536,4 +536,25 @@ a {
     #activities .activity-container {
         display: flex;
     }
+    /* FOOTER */
+    footer{
+        background: var(--secondary);
+        display: flex;
+        margin-top: 32px;
+        padding: 16px 0;
+    }
+    footer .footer-list{
+        width: 33%;
+    }
+    footer p{
+       font-weight: bold;
+    }
+    footer ul{
+       padding: 0;
+       list-style: none;
+       font-size: 14px;
+    }
+    footer ul li{
+       margin: 8px 0 ;
+    }
 }
