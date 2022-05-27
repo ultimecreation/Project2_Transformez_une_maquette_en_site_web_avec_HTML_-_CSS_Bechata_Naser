@@ -202,6 +202,7 @@ a {
     width: 100%;
     height: 280px;
     border-radius: 25px 25px 0 0;
+    object-fit: cover;
 }
 
 #accomodation-container section .article__body {
@@ -294,6 +295,7 @@ a {
     height: 150px;
     border-radius: 25px 0 0 25px;
     padding: 3px;
+    object-fit: cover;
 }
 
 #accomodation-container .load-more {
@@ -317,6 +319,7 @@ a {
 #activities img {
     width: 100%;
     height: 280px;
+    object-fit: cover;
 }
 
 /* FOOTER */
