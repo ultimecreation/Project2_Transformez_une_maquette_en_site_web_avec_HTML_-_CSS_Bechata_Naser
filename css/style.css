@@ -288,6 +288,9 @@ a {
     border-radius: 25px 0 0 25px;
     padding: 3px;
 }
+#accomodation-container .load-more {
+    font-weight: bold;
+}
 
 
 /* TABLET */
@@ -425,9 +428,6 @@ a {
         height: 100px;
     }
 
-    #accomodation-container .load-more {
-        font-weight: bold;
-    }
     /* ACTIVITIES */
     #activities .activity-container .activity-panel {
         display: flex;
