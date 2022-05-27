@@ -143,6 +143,12 @@ a {
     border: 1px solid lightgrey;
     border-radius: 25px;
 }
+.filter-container ul li:not(:first-child):hover {
+    background: var(--primary);
+}
+.filter-container ul li:not(:first-child):hover a{
+    color: white;
+}
 
 .filter-container ul li:not(:first-child) i {
     padding: 12px;
@@ -319,14 +325,17 @@ footer {
     margin-top: 32px;
     padding: 16px 0;
 }
+
 footer p {
     font-weight: bold;
 }
+
 footer ul {
     padding: 0;
     list-style: none;
     font-size: 14px;
 }
+
 footer .footer-list:not(:last-child) {
     margin-bottom: 48px;
 }
@@ -521,9 +530,9 @@ footer ul li {
         width: 33%;
     }
 
-    
 
-    
+
+
 }
 
 
