@@ -8,6 +8,7 @@
 
 html {
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -109,8 +110,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 235px;
-    top: 1px;
+    left: 228px;
+    top: 0px;
     width: 43px;
     height: 43px;
     padding: 12px;
