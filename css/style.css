@@ -315,7 +315,8 @@ a {
 
 /* ACTIVITIES */
 #activities .activity-container .activity-panel article {
-    margin: 12px;
+    /* TODO */
+    margin: 0 2rem 2rem 0;
     border-radius: 25px;
     overflow: hidden;
     border: 1px solid lightgray;
@@ -527,25 +528,25 @@ footer ul li {
 
     #activities img {
         width: 100%;
-        height: 385px;
+        height: 365px;
     }
-
+    
     #activities .activity-aside img {
         width: 100%;
         height: 165px;
     }
     .custom-height-img-2 {
-        height: 220px !important;
+        height: 179px !important;
     }
     
     .custom-height-img-3 {
-        height: 110px !important;
+        height: 109px !important;
     }
     .custom-height-img-5 {
-        height: 165px !important;
+        height: 139px !important;
     }
     .custom-height-img-6 {
-        height: 175px !important;
+        height: 153px !important;
     }
 
     /* FOOTER */
@@ -611,8 +612,8 @@ footer ul li {
     #activities .activity-container {
         display: flex;
     }
-    .custom-height-img-3 {
+    /* .custom-height-img-3 {
         height: 120px !important;
-    }
+    } */
 
 }
