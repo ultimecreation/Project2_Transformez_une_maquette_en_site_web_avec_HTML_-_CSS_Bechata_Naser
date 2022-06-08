@@ -67,11 +67,15 @@ a {
 .main-nav__nav-items li:hover a {
     color: var(--primary)
 }
-
+/* FIRST SECTION */
+.first-section h1{
+    font-size: 22px;;
+}
 /* SEARCH FORM */
 .search-form {
     position: relative;
     height: 36px;
+    width:334px;
 }
 
 .search-form i,
@@ -103,6 +107,7 @@ a {
     padding: 1px 8px;
     border: 1px solid var(--secondary);
     font-weight: bold;
+    width:235px
 }
 
 .search-form input[type="text"]::placeholder {
@@ -119,10 +124,10 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 228px;
-    top: 0px;
-    width: 48px;
-    height: 48px;
+    left: 280px;
+    top: 2px;
+    width: 42px;
+    height: 42px;
     padding: 12px;
     border-radius: 12px;
     background: var(--primary);
@@ -148,7 +153,7 @@ a {
 
 .filter-container ul li:not(:first-child) {
     padding: 0 12px 0 0;
-    margin: 8px 8px 8px 0px;
+    margin: 8px 28px 8px 0px;
     border: 1px solid lightgrey;
     border-radius: 25px;
 }
@@ -197,23 +202,29 @@ a {
 #accomodation-container section {
     padding: 16px;
     margin: 0;
+    width: 334px;
+}
+#accomodation-container section header h2{
+    font-size: 22px;
 }
 
 #accomodation-container section article {
     display: flex;
     flex-direction: column;
-    padding: 3px;
     border-radius: 25px;
-    /* box-shadow: 0px 0px 5px 2px lightgray; */
+    box-shadow: 0px 0px 5px 2px lightgray;
     width: 100%;
-    margin: 0px 0;
+    margin: 16px 0;
+    height: 199px;
+    padding-bottom: 16px;
 }
 
 #accomodation-container section .article__img img {
-    width: 100%;
-    height: 280px;
+    width: 97%;
+    height: 119px;
     border-radius: 25px 25px 0 0;
     object-fit: cover;
+    margin: 5px;
 }
 
 #accomodation-container section .article__body {
@@ -234,17 +245,18 @@ a {
 }
 
 #accomodation-container section .article__body p {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 #accomodation-container section .article__body small {
-    font-size: 10px;
+    font-size: 14px;
+
 }
 
 #accomodation-container section .article__body p,
 #accomodation-container section .article__body small {
-    margin: 2px;
+    margin: 4px;
 }
 
 /* ACCOMODATION MOST POPULAR*/
@@ -259,6 +271,9 @@ a {
     align-items: center;
     padding: 0 16px;
 }
+#accomodation-container aside header h2 {
+    font-size: 22px;
+}
 
 #accomodation-container aside .article-container {
     padding: 0 16px;
@@ -266,31 +281,33 @@ a {
 
 #accomodation-container aside .article-container article {
     display: flex;
-    width: 100%;
     border-radius: 25px;
     box-shadow: 0px 0px 10px 2px lightgray;
     font-size: 12px;
-    margin: 24px 0px;
+    margin: 24px 5px;
+    height: 144px;
 }
 
 #accomodation-container aside .article-container article .article__body {
     min-width: 50%;
-    padding: 8px;
+    padding: 16px 8px ;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
 }
 
-#accomodation-container aside .article__body p {
-    font-weight: bold;
-}
+
 
 #accomodation-container aside .article__body p,
 #accomodation-container aside .article__body small {
     margin: 2px;
     width: 110px;
+    font-size: 10px;
 }
-
+#accomodation-container aside .article__body p {
+    font-weight: bold;
+    font-size: 12px;
+}
 #accomodation-container aside .article-container article .article__body .rating {
     display: flex;
     list-style: none;
@@ -302,10 +319,10 @@ a {
 
 #accomodation-container aside .article-container a article img {
     display: flex;
-    width: 150px;
-    height: 150px;
+    width: 132px;
+    height: 134px;
     border-radius: 25px 0 0 25px;
-    padding: 3px;
+    padding: 5px;
     object-fit: cover;
 }
 
@@ -314,11 +331,14 @@ a {
 }
 
 /* ACTIVITIES */
+#activities header h2 {
+    font-size: 23px;
+}
 #activities .activity-container .activity-panel article {
-    margin: 0 2rem 2rem 0;
     border-radius: 25px;
     overflow: hidden;
-    border: 1px solid lightgray;
+    box-shadow: 0px 0px 10px 2px lightgray;
+   margin: 24px auto;
 }
 
 #activities .activity-container .activity-panel article .article__body {
@@ -329,8 +349,8 @@ a {
 
 #activities img {
     width: 100%;
-    height: 280px;
-    object-fit: cover;
+    height: 134px;
+    object-fit:cover;
 }
 
 /* FOOTER */
