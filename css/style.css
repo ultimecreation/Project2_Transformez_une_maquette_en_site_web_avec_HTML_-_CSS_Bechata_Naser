@@ -341,9 +341,10 @@ a {
 }
 
 #activities .activity-container .activity-panel {
-    max-width:  302px;
+    max-width: 302px;
     width: 100%;
 }
+
 #activities .activity-container .activity-panel:nth-of-type(2),
 #activities .activity-container .activity-panel:nth-of-type(4) {
     display: flex;
@@ -497,16 +498,19 @@ footer {
         height: 65px;
         padding: 12px 15px 0 15px;
     
-    }
+    }*/
     
     #accomodation-container .article-container .article__body p {
-        padding: 0;
+        /* padding: 0;
         margin: 0;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 16px; */
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
     
-    #accomodation-container .article-container .article__body small {
+    /*#accomodation-container .article-container .article__body small {
         padding: 0;
         margin: 3px 0;
         display: inline-block;
@@ -550,11 +554,11 @@ footer {
     }
 
     /* restart here */
-    #accomodation-container aside header i {
-        /* position: relative;
+     /*#accomodation-container aside header i {
+        position: relative;
         bottom: 4px;
-        font-size: 22px; */
-    }
+        font-size: 22px; 
+    }*/
 
     #accomodation-container aside header h2 {
         font-size: 22px;
@@ -607,58 +611,49 @@ footer {
 
     /* THIRD SECTION */
     #activities h2 {
-        /* font-size: 22px; */
+        font-size: 22px;
     }
 
     #activities .activity-container {
         display: flex;
-        flex-flow: column;
+        flex-flow: row wrap;
     }
 
     #activities .activity-container .activity-panel {
+        margin-bottom: 36px;
+    }
+
+    /* #activities .activity-container .activity-panel:nth-of-type(2),
+    #activities .activity-container .activity-panel:nth-of-type(4) {
         display: flex;
-        justify-content: space-between;
-        margin-bottom: 32px;
-    }
-
-    #activities .activity-container .activity-panel:nth-last-of-type(1) {
-        /* margin-left: 0px; */
-    }
-
-    #activities .activity-container .activity-panel article {
-        /* box-shadow: 3px 3px 10px lightgrey;
-        border-radius: 25px;*/
-    }
-
-    #activities .activity-container .activity-panel .activity-aside {
-        /* display: flex;
         flex-flow: column;
-        justify-content: space-between; */
-    }
+        justify-content: space-between;
+        width: 100%;
+    } */
 
-    #activities .activity-container .activity-panel .activity-aside article {
-        /* box-shadow: 3px 3px 10px lightgrey;
+    /* #activities .activity-container .activity-panel article {
+        box-shadow: 3px 3px 10px lightgrey;
         border-radius: 25px;
-        margin-left: 46px; */
-    }
+        overflow: hidden;
+    } */
 
-    #activities .activity-container article .article__img {
-        width: 322px;
-    }
+    /* #activities .activity-container .article__img {
+        width: 100%;
+    } */
 
-    #activities .activity-container .article__body {
+    /* #activities .activity-container .article__body {
         height: 56px;
         margin: 0;
         padding: 0;
-    }
+    } */
 
-    #activities .activity-container .article__body p {
+    /* #activities .activity-container .article__body p {
         margin: 0;
         padding: 17px;
         font-weight: bold;
-    }
+    } */
 
-    #activities .activity-container .img1 img,
+    /* #activities .activity-container .img1 img,
     #activities .activity-container .img2 img,
     #activities .activity-container .img3 img,
     #activities .activity-container .img4 img,
@@ -666,16 +661,15 @@ footer {
     #activities .activity-container .img6 img {
         width: 100%;
         object-fit: cover;
-    }
+    } */
 
-    #activities .activity-container .img1 img,
+    /* #activities .activity-container .img1 img,
     #activities .activity-container .img4 img {
         height: 392px;
-    }
+    } */
 
-    #activities .activity-container .img2 img {
+    /* #activities .activity-container .img2 img {
         height: 179px;
-
     }
 
     #activities .activity-container .img3 img {
@@ -688,10 +682,11 @@ footer {
 
     #activities .activity-container .img6 img {
         height: 152px;
-    }
+    } */
+
 
     /* FOOTER */
-    .footer {
+    /* .footer {
         background: var(--secondary);
     }
 
@@ -711,7 +706,7 @@ footer {
 
     .footer-list ul li {
         margin-bottom: 16px;
-    }
+    } */
 
 
 }
