@@ -139,6 +139,9 @@ a {
     align-items: baseline;
     font-size: 18px;
 }
+.filter-container h2 {
+    font-size: 21px;
+}
 
 .filter-container ul li:first-child {
     margin-right: 28px;
