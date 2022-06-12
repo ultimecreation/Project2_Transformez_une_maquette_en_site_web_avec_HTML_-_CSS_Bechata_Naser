@@ -140,12 +140,14 @@ a {
     align-items: baseline;
     font-size: 18px;
 }
+
 .filter-container h2 {
     font-size: 21px;
 }
 
 .filter-container ul li:first-child {
     margin-right: 28px;
+    /* margin-right: 23px; */
     margin-left: 8px;
 }
 
@@ -153,7 +155,9 @@ a {
     border: 1px solid lightgrey;
     border-radius: 50px;
     margin: 0 28px 0 0;
+    /* margin: 0 23px 0 0; */
     padding: 0 22px 0 0;
+    /* padding: 0 15px 0 0; */
     font-weight: bold;
 }
 
@@ -392,7 +396,7 @@ a {
 #activities .activity-container .img5 img,
 #activities .activity-container .img6 img {
     width: 100%;
-    
+
     position: relative;
 }
 
@@ -401,31 +405,31 @@ a {
     height: 392px;
     object-fit: cover;
     top: 30px;
-    transform: scale(1.12,1.15);
+    transform: scale(1.12, 1.15);
 }
 
 #activities .activity-container .img2 img {
     height: 179px;
     top: 25px;
-    transform: scale(1,2.85);
+    transform: scale(1, 2.85);
 }
 
 #activities .activity-container .img3 img {
     height: 109px;
     top: 35px;
-    transform: scale(1,1.65);
+    transform: scale(1, 1.65);
 }
 
 #activities .activity-container .img5 img {
     height: 139px;
     top: 30px;
-    transform: scale(1,1.5);
+    transform: scale(1, 1.5);
 }
 
 #activities .activity-container .img6 img {
     height: 152px;
     top: 30px;
-    transform: scale(1,1.5);
+    transform: scale(1, 1.5);
 }
 
 /* FOOTER */
@@ -445,7 +449,8 @@ footer {
 }
 
 .footer-list:not(:nth-of-type(1)) {
-    margin-left: 32px
+    /* margin-left: 32px; */
+    margin-left: 12px;
 }
 
 .footer-list ul {
@@ -730,7 +735,7 @@ footer {
 
     .search-form .btn-responsive {
         position: relative;
-        right:8px;
+        right: 8px;
         top: -1px;
         height: 51px;
         display: block;
