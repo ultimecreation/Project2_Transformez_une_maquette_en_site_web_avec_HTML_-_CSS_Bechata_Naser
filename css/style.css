@@ -12,9 +12,10 @@ html {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1340px;
     margin: 0 auto;
     padding: 0 55px;
+    overflow-x: hidden;
 }
 
 a {
@@ -90,7 +91,7 @@ a {
 }
 
 .search-form span {
-    width: 51px;
+    width: 60px;
     text-align: center;
     background: var(--secondary);
     border-radius: 15px 0 0 15px;
@@ -142,7 +143,7 @@ a {
 }
 
 .filter-container h2 {
-    font-size: 21px;
+    font-size: 17px;
 }
 
 .filter-container ul li:first-child {
@@ -154,7 +155,7 @@ a {
 .filter-container ul li:not(:first-child) {
     border: 1px solid lightgrey;
     border-radius: 50px;
-    margin: 0 28px 0 0;
+    margin: 0 23px 0 0;
     /* margin: 0 23px 0 0; */
     padding: 0 22px 0 0;
     /* padding: 0 15px 0 0; */
@@ -172,7 +173,7 @@ a {
 
 .filter-container ul li:not(:first-child) i {
     border-radius: 25px;
-    padding: 15px;
+    padding: 14px 12px;
     margin-right: 14px;
     color: var(--primary);
     background: var(--primary-light);
@@ -210,7 +211,9 @@ a {
     width: 59.5%;
     border-radius: 15px;
 }
-
+#accomodation-container section header{
+    font-size: 14.5px;
+}
 #accomodation-container section .article-container {
     display: flex;
     justify-content: space-between;
@@ -445,7 +448,7 @@ footer {
 
 .footer-list {
     width: 33%;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .footer-list:not(:nth-of-type(1)) {
@@ -724,7 +727,7 @@ footer {
         margin-top: 32px;
         display: flex;
         justify-content: space-between;
-        width: 333px;
+        width: 353px;
         height: 50px;
         align-items: center;
     }
@@ -867,7 +870,7 @@ footer {
     }
 
     #accomodation-most-popular header i {
-        padding-right: 16px;
+        padding-right: 24px;
     }
 
     #accomodation-container aside {
@@ -963,16 +966,20 @@ footer {
     #activities .activity-container .img5 img,
     #activities .activity-container .img6 img {
         width: 100%;
-        object-fit: cover;
+        position: relative;
     }
 
     #activities .activity-container .img1 img,
     #activities .activity-container .img4 img {
         height: 134px;
+        object-fit: cover;
+        top: 30px;
+        transform: scale(1.12, 1.1);
     }
 
     #activities .activity-container .img2 img {
         height: 134px;
+        transform: scale(1, 4.5);
     }
 
     #activities .activity-container .img3 img {
@@ -985,6 +992,7 @@ footer {
 
     #activities .activity-container .img6 img {
         height: 134px;
+        transform: scale(1, 2);
     }
 
     /* FOOTER */
