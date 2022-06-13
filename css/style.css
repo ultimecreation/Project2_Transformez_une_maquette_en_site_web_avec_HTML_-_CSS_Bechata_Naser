@@ -738,7 +738,7 @@ footer {
 
     .search-form .btn-responsive {
         position: relative;
-        right: 8px;
+        right: 16px;
         top: -1px;
         height: 51px;
         display: block;
