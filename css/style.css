@@ -376,6 +376,14 @@ a {
     border-radius: 25px;
     overflow: hidden;
 }
+#activities .activity-container .activity-panel article:nth-of-type(1) {
+    margin-right: 10%;
+}
+
+#activities .activity-container .activity-panel article:nth-of-type(2),
+#activities .activity-container .activity-panel article:nth-of-type(3){
+    margin-right:10%;
+}
 
 #activities .activity-container .article__img {
     width: 100%;
@@ -484,91 +492,7 @@ footer {
         margin-bottom: 16px;
     }
 
-    /* ACCOMODATION */
-    #accomodation-container {
-        display: flex;
-        flex-flow: column;
-    }
-
-    #accomodation-container section {
-        background: var(--secondary);
-        padding: 36px 0;
-        width: 100%;
-    }
-
-    #accomodation-container .article-container .article__body p {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-
-    #accomodation-container aside {
-        background: var(--secondary);
-        padding: 36px 0;
-        width: 100%;
-        margin-right: 0;
-    }
-
-    #accomodation-container aside header {
-        max-width: 100%;
-    }
-
-    #accomodation-container aside header h2 {
-        font-size: 22px;
-    }
-
-    #accomodation-container aside .article-container {
-        display: flex;
-        justify-content: space-between;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
-    #accomodation-container aside .article-container a {
-        width: 30%;
-    }
-
-    #accomodation-container aside .article-container article {
-        flex-flow: column;
-        height: 201px;
-        width: 100%;
-    }
-
-    #accomodation-container aside .article-container .article__img img {
-        height: 113px;
-        width: 95%;
-        border-radius: 25px 25px 0 0;
-        object-fit: cover;
-    }
-
-    #accomodation-container aside .article-container .article__body {
-        height: 1px;
-    }
-
-    #accomodation-container aside .article-container .article__body p {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-
-    #accomodation-container aside .article-container .article__body small {
-        margin-top: 0px;
-    }
-
-    /* THIRD SECTION */
-    #activities h2 {
-        font-size: 22px;
-    }
-
-    #activities .activity-container {
-        display: flex;
-        flex-flow: row wrap;
-    }
-
-    #activities .activity-container .activity-panel {
-        margin-bottom: 36px;
-        min-height: 451px;
-    }
+    
 }
 
 
@@ -941,6 +865,15 @@ footer {
     #activities .activity-container .activity-panel article {
         height: 190px;
         margin-bottom: 24px;
+    }
+
+    #activities .activity-container .activity-panel article:nth-of-type(1) {
+        margin-right: 0%;
+    }
+    
+    #activities .activity-container .activity-panel article:nth-of-type(2),
+    #activities .activity-container .activity-panel article:nth-of-type(3){
+        margin-right:0%;
     }
 
     #activities .activity-container .article__img {
